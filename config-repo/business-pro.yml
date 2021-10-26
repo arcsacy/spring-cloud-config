@@ -15,10 +15,6 @@ spring:
     timeout: 5000
 server:
   port: 9002
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:9000/eureka/
 logging:
   file:
     name: /logs/${spring.application.name}.log
