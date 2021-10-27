@@ -21,15 +21,6 @@ logging:
   level:
     com.netflex: warn
     com.tyr: debug
-management:
-  endpoint:
-    web:
-      exposure:
-        include: 'refresh'
-    shutdown:
-      enabled: true
-    health:
-      show-details: always
 swagger:
   lib:
     enabled: true

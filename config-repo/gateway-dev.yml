@@ -61,11 +61,6 @@ logging:
   level:
     com.netflex: warn
     com.tyr: debug
-management:
-  endpoints:
-    web:
-      exposure:
-        include: routes,refresh
   endpoint:
     shutdown:
       enabled: true
