@@ -14,7 +14,7 @@ spring:
     password: ydea123
     timeout: 5000
 server:
-  port: 9002
+  port: 9003
 logging:
   file:
     name: /logs/${spring.application.name}.log
