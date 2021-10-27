@@ -1,4 +1,5 @@
 business:
-  msg: 这是业务服务的测试信息
-  from: ${server.port}
-  time: 1997/1/1
+  test:
+    msg: 这是业务服务的测试信息
+    from: ${server.port}
+    time: 1997/1/1
