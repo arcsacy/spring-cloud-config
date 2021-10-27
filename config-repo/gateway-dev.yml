@@ -5,7 +5,7 @@ zuul:
     connect-timeout-millis: 10000
     max-per-route-connections: 10000
     max-total-connections: 10000
-    socket-timeout-millis: 3000
+    socket-timeout-millis: 6000
   routes:
     api-auth:
       path: /auth/**
