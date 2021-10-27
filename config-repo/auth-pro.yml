@@ -1,13 +1,3 @@
-
-spring:
-  application:
-    name: auth-service
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    database: 10
-    password: ydea123
-    timeout: 5000
 server:
   port: 9001
 logging:
